@@ -45,7 +45,7 @@ Voici comment faire sur mobile (*Android/iOS*) :
 
 #### 1. Va sur ton **profil Instagram**  
 #### 2. Clique sur l’icône **☰ (3 traits)**  
-<img src="https://i.imgur.com/jD8UXzf.jpeg" alt="Étape 2" width="125"/>
+<img src="https://i.imgur.com/jD8UXzf.jpeg" alt="Étape 2" width="125"/>   
 #### 3. Va dans **Centre des comptes Meta**  
    ![Étape 3](https://via.placeholder.com/150)  
 #### 4. Sélectionne **Mes informations** → **Télécharger mes informations**  
