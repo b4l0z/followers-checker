@@ -45,56 +45,41 @@ Voici comment faire sur mobile (*Android/iOS*) :
 
 #### 1. Va sur ton **profil Instagram**  
 #### 2. Clique sur l’icône **☰ (3 traits)**  
-<img src="https://i.imgur.com/jD8UXzf.jpeg" alt="Étape 2" width="125"/>   
-#### 3. Va dans **Centre des comptes Meta**  
-   ![Étape 3](https://via.placeholder.com/150)  
-#### 4. Sélectionne **Mes informations** → **Télécharger mes informations**  
-   ![Étape 4](https://via.placeholder.com/150)  
+#### 3. Va dans **Espace Comptes** (Meta)  
+#### 4. Sélectionne **Vos informations et autorisations** → **Télécharger vos informations**  
 #### 5. Choisis ton compte Instagram (si besoin)  
-#### 6. Clique sur **"Some of your informations"**  
-#### 7. Coche uniquement **"Followers and Following"**  
-#### 8. Descends et vérifie bien que :  
-   - **Date Range** : All Time  
+#### 6. Clique sur **Certaines de vos informations**  
+#### 7. Coche uniquement **followers et suivi(e)s**  
+#### 8. Vérifie bien que :  
+   - **Date Range** : Depuis le début  
    - **Format** : ⚠️ **JSON** ⚠️  
 #### 9. Clique sur **Créer les fichiers** et attends le mail de Meta (quelques minutes)
 
----
+
 
 ## 🗃️ Placer les fichiers
 
 Une fois les fichiers téléchargés, récupère ces 3 fichiers et place-les dans le **dossier racine** du projet :
 
-- followers.json  
-- following.json  
-- pending_follow_requests.json
+- `followers.json` 
+- `following.json` (ou `following_1.json`) 
+- `pending_follow_requests.json`
 
----
+
 
 ## 🚀 Lancer le projet
 
 Une fois les fichiers en place :
-
+```bash
 starter.bat
+```
 
-Et c’est tout. Le programme va te balancer les infos direct dans le terminal 🤙
 
----
 
 ## 👤 Auteur
 
-Créé avec 💻 par **BaloZ**  
-📸 Instagram : [@arthur.pvtt](https://instagram.com/arthur.pvtt)
+- Créé par **BaloZ**  
+- Contact : [Instagram @arthur.pvtt](https://instagram.com/arthur.pvtt)
 
----
 
-## 🏷️ Badges & Logo
-
-Tu veux un logo ou un badge clean ? Check ce site gratos :  
-[https://shields.io/](https://shields.io/) ← pour les badges  
-[https://logojoy.com](https://logojoy.com) ou [https://looka.com](https://looka.com) ← pour les logos stylés
-
----
-
-## 📄 Licence
-
-🆓 Projet open-source pour usage perso uniquement. Si tu veux l'utiliser commercialement, contacte-moi avant.
+#### 🆓 Projet open-source pour usage perso uniquement.
