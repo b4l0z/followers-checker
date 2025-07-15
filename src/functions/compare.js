@@ -4,6 +4,14 @@ const fs = require("fs");
 const path = require("path");
 
 function compare(option) {
+  const followersOldPath = path.resolve(__dirname, "../../data/current/followers_old.json");
+  const followingOldPath = path.resolve(__dirname, "../../data/current/following_old.json");
+
+  if (!fs.existsSync(followersOldPath) || !fs.existsSync(followingOldPath)) {
+    console.log(red("❌ Les fichiers précédents sont manquants. Tu dois lancer une première comparaison pour les générer."));
+    return ["errMissingOldData"];
+  }
+
   const nowFollowersRaw = fs.readFileSync(path.resolve(__dirname, "../../data/current/followers_now.json"), "utf-8");
   const nowFollowingRaw = fs.readFileSync(path.resolve(__dirname, "../../data/current/following_now.json"), "utf-8");
   const oldFollowersRaw = fs.readFileSync(path.resolve(__dirname, "../../data/current/followers_old.json"), "utf-8");
