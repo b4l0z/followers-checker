@@ -24,12 +24,21 @@ function checkFiles() {
 
   try {
     // Suppression des anciens
-    fs.unlinkSync("./data/current/followers_old.json");
-    fs.unlinkSync("./data/current/following_old.json");
+    if (fs.existsSync("./data/current/followers_old.json")) {
+      fs.unlinkSync("./data/current/followers_old.json");
+    }
+    if (fs.existsSync("./data/current/following_old.json")) {
+      fs.unlinkSync("./data/current/following_old.json");
+    }
 
     // Déplacement des fichiers actuels vers _old
-    fs.renameSync("./data/current/followers_now.json", "./data/current/followers_old.json");
-    fs.renameSync("./data/current/following_now.json", "./data/current/following_old.json");
+    if (fs.existsSync("./data/current/followers_now.json")) {
+      fs.renameSync("./data/current/followers_now.json", "./data/current/followers_old.json");
+    }
+
+    if (fs.existsSync("./data/current/following_now.json")) {
+      fs.renameSync("./data/current/following_now.json", "./data/current/following_old.json");
+    }
 
     // Copie des nouveaux
     fs.copyFileSync("followers_1.json", "./data/current/followers_now.json");
