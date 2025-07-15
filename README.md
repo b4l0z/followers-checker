@@ -18,7 +18,7 @@ Grâce au téléchargement de tes données via Meta, tu pourras découvrir :
 
 ✅ Trouve les personnes qui ne te suivent pas en retour 👀  
 ✅ Trouve les personnes qui ne t'ont pas accepté sur leur compte 🔒  
-✅ Détecte qui t'a supprimé ou unfollow 🔍  
+✅ Détecte qui t'a supprimé ou unfollow (à partir de la deuxième utilisation) 🔍  
 ✅ Interface simple via terminal 🖥️  
 ✅ Et + pour très bientôt ⌛  
 
