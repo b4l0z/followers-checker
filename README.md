@@ -76,10 +76,11 @@ starter.bat
 
 
 
-## 👤 Auteur
+## 👤 Auteur & contact
 
 - Créé par **BaloZ**  
-- Contact : [Instagram @arthur.pvtt](https://instagram.com/arthur.pvtt)
+- Instagram ➣ [@arthur.pvtt](https://instagram.com/arthur.pvtt)  
+- @b4l0z ➣ [French Discord](https://discord.gg/baguettes)
 
 
 #### 🆓 Projet open-source pour usage perso uniquement.
