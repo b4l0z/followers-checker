@@ -61,8 +61,8 @@ Voici comment faire sur mobile (*Android/iOS*) :
 
 Une fois les fichiers téléchargés, récupère ces 3 fichiers et place-les dans le **dossier racine** du projet :
 
-- `followers.json` 
-- `following.json` (ou `following_1.json`) 
+- `followers.json` (ou `followers_1.json`) 
+- `following.json` 
 - `pending_follow_requests.json`
 
 
